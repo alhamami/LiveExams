@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    <title>Home</title>
+{% endblock %}
+
+
+{% block custom_css %}
+    <link rel="stylesheet" href="{% static 'main_app/css/home.css' %}">
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="container" style="padding: 30px">
+        <div class="jumbotron my_jumbotron">
+          <h1 class="display-4">Welcome to Live exam website!</h1>
+          <hr class="my-4">
+          <p><i class='fas fa-chalkboard-teacher'></i> - As a <b>Teacher</b> you can create, publish, and delete online exams seamlessly.</p>
+          <p><i class="fas fa-user-graduate"></i> - As a <b>Student</b> you can take practice or actual exam published by the teacher and see the exam results effortlessly.</p>
+          <hr class="my-4">
+          <p>do you want to <b>register</b> as teacher or student?</p>
+          <a class="btn btn-danger" href="{% url 'users:examiner_sign_up' %}" role="button">Teacher</a>
+          <a class="btn btn-info " href="{% url 'users:student_sign_up' %}" role="button">Student</a>
+          <hr class="my-4">
+          <p><b>Already have account?</b> please click the login button.</p>
+          <a type="submit" class="btn btn-primary" href="{% url 'users:login' %}">Login <i class="fa fa-sign-in"></i></a>
+          <hr class="my-4">
+          <p><i class='fas fa-solid fa-laptop-code'></i> - This website developed by <b>Jalal Alhamami - Turky Alammar - Abdulmalik Alargani</b>   </p>
+
+
+
+        </div>
+    </div>
+
+
+{% endblock %}
