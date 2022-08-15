@@ -38,14 +38,16 @@ the site settings and the availability of various options for uploading The proj
 database that can be used free of charge.
 
 <hr>
+
 # instructions
+
 ## To run the project locally on the device, please type these commands in the command prompt and follow the instructions below:
 - pip install -r requirements.txt
 - python manage.py runserver
 Then the project should work fine!
 
 ## Or you can visit the project through the following link:
-
+- [Click here](https://live-exams.herokuapp.com/)
 
 ### Two accounts have been created and can be used.
 To use the teacher's account, enter the following:
