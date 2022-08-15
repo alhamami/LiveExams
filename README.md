@@ -44,6 +44,7 @@ database that can be used free of charge.
 ## To run the project locally on the device, please type these commands in the command prompt and follow the instructions below:
 - pip install -r requirements.txt
 - python manage.py runserver
+
 Then the project should work fine!
 
 ## Or you can visit the project through the following link:
