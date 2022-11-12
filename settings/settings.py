@@ -81,11 +81,11 @@ WSGI_APPLICATION = 'settings.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'uaM8kGFpDbioYDm2MZQe',
-        'HOST': 'containers-us-west-55.railway.app',
-        'PORT': '7631',
+        'NAME': 'dbvujci0vvmm5p',
+        'USER': 'lwdujtsmptzzju',
+        'PASSWORD': 'd00f36bd40c49da1ddca3a3dc021485e1dd5631528a807b6273bb4806d5e90fb',
+        'HOST': 'ec2-52-23-131-232.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
